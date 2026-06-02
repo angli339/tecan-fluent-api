@@ -20,3 +20,6 @@ def wellname96_to_i_col_row(wellname: str):
     i_col = int(colname) - 1
     return i_col, i_row
 
+def wellname96_to_tecan_well_no(wellname: str) -> int:
+    i_col, i_row = wellname96_to_i_col_row(wellname)
+    return i_col * 8 + i_row
