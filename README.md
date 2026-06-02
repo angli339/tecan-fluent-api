@@ -187,6 +187,6 @@ dev.rt.GetVariableValue(...)
 dev.rt.SetVariableValue(..., ...)
 dev.rt.ResolveExpression(...)
 
-dev.InteriorLight(True)
-dev.InteriorLight(False)
+dev.rt.InteriorLight(True)
+dev.rt.InteriorLight(False)
 ```
