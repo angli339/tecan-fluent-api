@@ -44,7 +44,7 @@ Start the script in FluentControl and wait until it reaches the `Create API Chan
 
 ```python
 import time
-from tecan.tecan_ctrl import Tecan
+from tecan_fluent.tecan_ctrl import Tecan
 
 dev = Tecan()
 
